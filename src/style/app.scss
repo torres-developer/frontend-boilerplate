@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// Abstract files
+@import "abstracts/_mixins/clr";
+@import "abstracts/variables";
+@import "abstracts/costum_selectors";
+
+// Vendor Files
+
+// Core files
+@import "core/reset";
+@import "core/typography";
+@import "core/core";
+
+// Components
+@import "components/button";
+
+// Layout
+@import "layout/nav";
+@import "layout/footer";
+
+// Sections
+// @import "sections/all";
+
+// Pages
+@import "pages/index";

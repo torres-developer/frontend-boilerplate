@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "colorguard": "^0.3.0",
+    "cssnano": "^5.1.13",
+    "cssnano-preset-advanced": "^5.3.8",
+    "oldie": "^1.3.0",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-preset-env": "^7.8.0",
+    "sass": "^1.54.0",
+    "webp-in-css": "^0.7.0"
+  },
+  "scripts": {
+    "css": "sass src/style/app.scss | postcss | tee dist/style.css | postcss -u oldie cssnano -o dist/legacy.css"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
